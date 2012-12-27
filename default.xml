@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="hb"
+           fetch="git://github.com/hellbentv/" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
@@ -36,7 +39,7 @@
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="ls" revision="jb" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="ls" revision="jb" />
   <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="ls" revision="jb" />
-  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ls" revision="jb2" />
+  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="hb" revision="jb2" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="ls" revision="jb" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="ls" revision="jb2" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" remote="ls" revision="jb2" />
@@ -340,7 +343,7 @@
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-10.1" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-10.1" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-10.1" />
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="jb2" />
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="hb" revision="jb2" />
   <project path="vendor/lge" name="android_vendor_lge" remote="ls" revision="jb2" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-10.1" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-10.1" />

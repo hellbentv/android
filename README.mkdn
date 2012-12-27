@@ -1,6 +1,6 @@
-LiquidSmooth Source
+Hellbent Source
 ===================
-To get started with LiquidSmooth, you'll need to get
+To get started with Hellbent, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
 Create the Directories
@@ -11,7 +11,7 @@ You will need to set up some directories in your build environment.
 To create them run:
 
     mkdir -p ~/bin
-    mkdir -p ~/liquid
+    mkdir -p ~/hellbent
 
 Install the Repository
 ----------------------
@@ -25,14 +25,14 @@ Enter the following to download make executable the "repo" binary:
 You may need to reboot for these changes to take effect. 
 Now enter the following to initialize the repository:
 
-    cd ~/liquid
+    cd ~/hellbent
 
 Repositories:
 ---------------
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/LiquidSmooth/android.git -b jb2
+    repo init -u git://github.com/hellbentv/android.git -b jb2
 
     repo sync
 

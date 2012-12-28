@@ -12,6 +12,9 @@
 
   <remote  name="ls"
            fetch="git://github.com/LiquidSmooth/" />
+           
+  <remote  name="imo"
+           fetch="git://github.com/imoseyon" />
 
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
@@ -23,7 +26,7 @@
            remote="aosp"
            sync-j="7" />
 
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="jellybean" />
+  <project path="kernel/samsung/d2" name="leanKernel-d2vzw" remote="imo" revision="lk-tw-jb" />
 
   <project path="build" name="android_build" remote="ls" revision="jb2">
     <copyfile src="core/root.mk" dest="Makefile" />
